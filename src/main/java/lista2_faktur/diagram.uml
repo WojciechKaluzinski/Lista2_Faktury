@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="162.0">lista2_faktur.ZarzadzanieZewnetrznaBaza</node>
+    <node x="373.36574074074076" y="0.0">lista2_faktur.Klient</node>
+    <node x="295.5" y="248.0">lista2_faktur.Menu</node>
+    <node x="366.30324074074076" y="86.0">lista2_faktur.ZarzadzajKlientami</node>
+    <node x="245.00000000000003" y="162.0">lista2_faktur.ZarzadzajFakturami</node>
+    <node x="249.30324074074076" y="86.0">lista2_faktur.Faktura</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lista2_faktur.ZarzadzajKlientami" target="lista2_faktur.Klient">
+      <point x="-21.875" y="-13.0" />
+      <point x="431.92824074074076" y="66.0" />
+      <point x="425.2824074074074" y="66.0" />
+      <point x="7.416666666666671" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajFakturami" target="lista2_faktur.Faktura">
+      <point x="-50.0" y="-13.0" />
+      <point x="282.5" y="137.0" />
+      <point x="285.30324074074076" y="137.0" />
+      <point x="-12.0" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.Menu" target="lista2_faktur.ZarzadzanieZewnetrznaBaza">
+      <point x="-30.833333333333343" y="-13.0" />
+      <point x="301.6666666666667" y="228.0" />
+      <point x="56.25" y="228.0" />
+      <point x="-56.25" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajKlientami" target="lista2_faktur.Menu">
+      <point x="21.875" y="13.0" />
+      <point x="475.67824074074076" y="137.0" />
+      <point x="491.25" y="137.0" />
+      <point x="491.25" y="218.0" />
+      <point x="351.0" y="218.0" />
+      <point x="18.5" y="-13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajFakturami" target="lista2_faktur.ZarzadzajKlientami">
+      <point x="50.0" y="-13.0" />
+      <point x="382.5" y="137.0" />
+      <point x="388.17824074074076" y="137.0" />
+      <point x="-65.625" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajFakturami" target="lista2_faktur.Klient">
+      <point x="25.0" y="-13.0" />
+      <point x="357.5" y="137.0" />
+      <point x="355.80324074074076" y="137.0" />
+      <point x="355.80324074074076" y="56.0" />
+      <point x="395.61574074074076" y="56.0" />
+      <point x="-22.25" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.Faktura" target="lista2_faktur.Klient">
+      <point x="0.0" y="-13.0" />
+      <point x="297.30324074074076" y="46.0" />
+      <point x="380.7824074074074" y="46.0" />
+      <point x="-37.083333333333336" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.Menu" target="lista2_faktur.ZarzadzajKlientami">
+      <point x="30.833333333333343" y="-13.0" />
+      <point x="363.33333333333337" y="228.0" />
+      <point x="502.25" y="228.0" />
+      <point x="502.25" y="137.0" />
+      <point x="519.4282407407408" y="137.0" />
+      <point x="65.625" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajKlientami" target="lista2_faktur.ZarzadzajFakturami">
+      <point x="-21.875" y="13.0" />
+      <point x="431.92824074074076" y="137.0" />
+      <point x="407.5" y="137.0" />
+      <point x="75.0" y="-13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzajFakturami" target="lista2_faktur.Menu">
+      <point x="43.75" y="13.0" />
+      <point x="376.25" y="208.0" />
+      <point x="338.6666666666667" y="208.0" />
+      <point x="6.166666666666657" y="-13.0" />
+    </edge>
+    <edge source="lista2_faktur.Menu" target="lista2_faktur.ZarzadzajFakturami">
+      <point x="-6.166666666666686" y="-13.0" />
+      <point x="326.33333333333337" y="208.0" />
+      <point x="288.75" y="208.0" />
+      <point x="-43.75" y="13.0" />
+    </edge>
+    <edge source="lista2_faktur.ZarzadzanieZewnetrznaBaza" target="lista2_faktur.Menu">
+      <point x="56.25" y="13.0" />
+      <point x="168.75" y="218.0" />
+      <point x="314.0" y="218.0" />
+      <point x="-18.5" y="-13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="602.2222222222222" y="865.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
